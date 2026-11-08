@@ -1,0 +1,3 @@
+case4 大论文主动挡墙算例
+墙土摩擦角在particle_interaction.cu的cuParticleInteractionMaterialLoopContact()中更改，
+cuParticleInteractionMaterialLoopSolution()中contact_shift_i定义接触面是否发生切向滑移，并设定合理的速度场。
